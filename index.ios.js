@@ -1,4 +1,4 @@
 import App from './src/app';
-import React from 'react-native';
+import React, {AppRegistry} from 'react-native';
 
-React.AppRegistry.registerComponent('ReactNativeSeed', () => App);
+AppRegistry.registerComponent('ReactNativeSeed', () => App);
